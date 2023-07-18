@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>আপনার ছবির উপরে আকার পরিবর্তন</title>
+  <style>
+    .image-container {
+      position: relative;
+      width: 500px; /* ছবির ক্যানভাসের প্রাকৃতিক প্রকার আকার */
+      height: 500px;
+    }
+    
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* আপনি চাইলে ব্যবহার করার আপনার পছন্দমতো ব্যাকগ্রাউন্ড রঙ নির্বাচন করতে পারেন */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .text {
+      color: white;
+      font-size: 24px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <img src="আপনার_ছবির_পথ" alt="আপনার ছবি">
+    <div class="overlay">
+      <div class="text">আপনার আকার পরিবর্তিত টেক্সট</div>
+    </div>
+  </div>
+</body>
+</html>
