@@ -621,10 +621,10 @@ img{
 
 
 .downloads-small img{
-    position: relative;
+    position: absolute;
     z-index: 1;
     top: 300px;
-    right: 125px;
+    right: 30px;
     width: 180px;
 }
 
