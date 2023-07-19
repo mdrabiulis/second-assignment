@@ -292,28 +292,25 @@ nav a{
     top: 400px;
 }
 
+
+
 .games-container{
-    
-    height: 50vh;
-    padding-top: 300px;
-   align-items: center;
-   background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+height: 50vh;
+padding-top: 300px;
+align-items: center;
+background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
 .games-item{
     display: grid;
     grid-template-columns: repeat(5, 1fr );
     /* margin-left: 100px; */
-    gap: 70px;
-
-
-
-    
+    gap: 60px; 
 }
 
 .games-title{
 color: #0B0223;
-font-size: 20px;
+font-size: 18px;
 font-weight: 600;
 margin-left: 15px;
 
@@ -322,23 +319,36 @@ margin-left: 15px;
 .games{
     display: flex;
     justify-content:center;
+    margin: 0px 40px 0px 40px;
+    padding: 0px 10px 0px 10px;
     align-items: center;
+    border: 3px solid transparent;
+    transition: all 1s;
 }
 
+.games img{
+    width: 50px;
+    height: 50px;
+}
+.more-game img{
+    width: 50px;
+    height: 50px;
+}
 
 .more-game{
     display: flex;
     justify-content:center;
     align-items: center;
-    /* margin-top: 30px; */
-    margin-left: 30px;
+    margin: 0px 0px 0px 60px;
+    padding: 0px 10px 0px 10px;
+    border: 3px solid transparent;
+    transition: all 1s;
     
 }
 
 .more-game:hover{
     border: 3px solid #F948B2;
-    border-radius: 50px;
-    border-width: 1px;
+    border-radius: 35px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     background-clip: text;
     -webkit-background-clip: text;
@@ -348,8 +358,7 @@ margin-left: 15px;
 .games:hover{
     
     border: 3px solid #F948B2;
-    border-width: 1px;
-    border-radius: 50px;
+    border-radius: 35px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     background-clip: text;
     -webkit-background-clip: text;
@@ -558,6 +567,14 @@ img{
     gap: 5px;
 }
 
+.games{
+    margin: 0px;
+    padding: 0px;
+}
+.more-game{
+    margin: 0px;
+    padding: 0px;
+}
 
 .games > img{
     width: 40px;
