@@ -467,5 +467,48 @@ img{
     font-weight: 500;
     padding: 19px 35px;
 }
+.banner-videos-container{
+    flex-direction: column;
+}
+
+.title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 680;
+}
+
+.description{
+    font-size: 18px;
+    font-weight: 380;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.videos-item{
+    flex-direction: column;
+}
+
+
+.videos-description{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 15px 0px 25px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
