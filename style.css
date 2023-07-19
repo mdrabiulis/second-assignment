@@ -496,16 +496,66 @@ img{
     margin: 15px 0px 25px 10px;
 }
 
+.banner-downloads-container{
+    flex-direction: column;
+    margin-top: 180px;
+}
+
+.downloads-title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 680;
+}
 
 
+.downloads-description{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 380;
+    line-height: 28px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
 
 
+.downloads-small img{
+    position: relative;
+    z-index: 1;
+    top: 300px;
+    right: 125px;
+    width: 180px;
+}
+
+.games-container{
+    padding-top: 50px;
+    height: 40vh;
+}
+
+.games-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    align-items: center;
+    padding: 2px;
+    gap: 5px;
+}
 
 
+.games > img{
+    width: 40px;
+    height: 40px;
 
+}
 
+.more-game > img{
+    width: 40px;
+    height: 40px;
+}
 
-
+.games-title{
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 12px;
+}
 
 
 
