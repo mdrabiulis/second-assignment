@@ -638,8 +638,8 @@ img{
     display: grid;
     grid-template-columns: repeat(3, 1fr );
     align-items: center;
-    padding: 2px;
-    gap: 5px;
+    padding: 10px;
+    gap: 2px;
 }
 
 .games{
