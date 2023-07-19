@@ -101,9 +101,7 @@ nav a{
     align-items: center;
     background-image: url('./images/Group\ 14.png');
     background-repeat: no-repeat;
-    background-size: cover; 
-   background-position: center;
-   background-attachment: fixed;
+
 }
 
 .banner-item{
@@ -438,13 +436,36 @@ footer{
     flex-direction: column;
     gap: 100px;
 }
-  
+
 img{
     width: 100%;
 }
 
 
+.banner-title{
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.banner{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.btn-primary{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 19px 35px;
+}
 
 
+.btn-secondary{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 19px 35px;
+}
 
 }
