@@ -736,28 +736,65 @@ img{
 
 }
 /* =========== */
+
 @media screen and (min-width: 576px) and (max-width: 768px){
-
-    
 .nav-container, .navbar, ul{ flex-direction: column; gap: 40px;}
-
 .banner-container{ flex-direction: column;}
-
 .we-are-gamer-container{ flex-direction: column-reverse;}
 .we-are-gamer-item { margin-right: 30px; text-align: center;}
+
+.videos-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 50px;
+    gap: 100px;
+    
+}
+
+
+
+
+.videos-item{ margin-top: 30px; margin-bottom: 50px; }
+.banner-downloads-container{ flex-direction: column; margin: 180px 0px 150px 45px;}
+.downloads-small { position: absolute; z-index: 1; top: 680px; left: 2px;}
+.downloads-description{ margin-bottom: 40px; margin-top: 20px;}
+.games-item { display: grid; grid-template-columns: repeat(3, 1fr ); gap: 10px; }
+
+.games-container {
+    padding-top: 50px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    background-size: cover;
+    /* padding-right: 25px; */
+    margin-left: 25px;
+}
+
+.games-title {
+    color: #0B0223;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
 
 
 }
     
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 769px) and (max-width: 1024px){
 
-    .banner-container{ flex-direction: column;}
-    .we-are-gamer-container{ flex-direction: column-reverse;}
-    .we-are-gamer-item { margin-right: 30px; text-align: center;}
+.banner-container{ flex-direction: column;}
+.we-are-gamer-container{ flex-direction: column-reverse;}
+.we-are-gamer-item { margin-right: 30px; text-align: center;}
 
+.videos-container{ display: grid; grid-template-columns: repeat(2, 1fr); align-items: center; margin-left: 105px; gap: 100px; padding: 20px 0px 20px 0px; }
 
+.videos-item{ margin-top: 30px; margin-bottom: 50px; }
+.banner-downloads-container{ flex-direction: column; margin: 180px 0px 150px 45px;}
+.downloads-small { position: absolute; z-index: 1; top: 680px; left: 2px;}
+.downloads-description{ margin-bottom: 40px; margin-top: 20px;}
 
+.games-item { display: grid; grid-template-columns: repeat(3, 1fr ); gap: 20px; }
 
+    
 
 }
