@@ -130,7 +130,6 @@ nav a{
  
 }
 
-
 .banner-description{
         color: #534C64;
       
@@ -145,7 +144,6 @@ nav a{
     margin-right: 10px;
     margin-left: 20px;
 }
-
 
 .btn{
     margin-top: 30px;
@@ -164,7 +162,6 @@ nav a{
     cursor: pointer;
 
 }
-
 
 .btn-secondary{
     color: #FFF;
@@ -194,8 +191,6 @@ nav a{
     align-items: center;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
-
-
 
 .we-are-gamer-item{
     margin-right: 230px;
@@ -233,7 +228,6 @@ nav a{
 }
 
 
-
 .we-are-gamer-sub-title{
         color: #534C64;
         font-size: 32px;
@@ -242,7 +236,6 @@ nav a{
         margin-bottom: 30px;
         margin-top: 30px;
  }
-
 
  /* videos-container */
 
@@ -304,8 +297,6 @@ gap: 30px;
 
 
 
-
-
 /* videos-container */
 
 
@@ -343,8 +334,6 @@ gap: 30px;
     margin-top: 20px;
 }
 
-
-
 .videos-description{
     color: #534C64;
     font-size: 20px;
@@ -354,8 +343,6 @@ gap: 30px;
     margin-top: 15px;
     margin-left: 10px;
 }
-
-
 
 .banner-downloads-container{
     display: flex;
@@ -383,14 +370,11 @@ gap: 30px;
     line-height: 30px;
 }
 
-
 .downloads-small{
     position: absolute;
     z-index: 1;
     top: 400px;
 }
-
-
 
 .games-container{
 height: 50vh;
@@ -405,7 +389,6 @@ background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 16
    
     gap: 60px; 
 }
-
 
 .games-title{
 color: #0B0223;
@@ -452,7 +435,7 @@ margin-left: 15px;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    }
+}
 
 .games:hover{
     
@@ -469,7 +452,6 @@ margin-left: 15px;
     margin-top: 30px;
     
 }
-
 
 .footer-logo-img{
     display: flex;
@@ -502,8 +484,6 @@ margin-left: 15px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-
 
 .useful-links ul{
     justify-content: center;
@@ -570,7 +550,6 @@ img{
     width: 100%;
 }
 
-
 .banner-title{
     padding-top: 30px;
     font-size: 40px;
@@ -590,7 +569,6 @@ img{
     padding: 19px 35px;
 }
 
-
 .btn-secondary{
     font-size: 17px;
     font-weight: 500;
@@ -606,15 +584,12 @@ img{
     text-align: center;
 }
 
-
 .videos-container{
     flex-direction: column;
     align-items: center;
     gap: 100px;
     
 }
-
-
 
 .banner-videos-container{
     flex-direction: column;
@@ -750,7 +725,6 @@ img{
     gap: 100px;
 }
 
-
 .footer-container{
     background: #0B0223;
 
@@ -765,12 +739,6 @@ img{
     padding-bottom: 20px;
     gap: 20px;
 }
-
-
-
-
-
-
 
 .videos-item{ margin-top: 30px; margin-bottom: 50px; }
 .banner-downloads-container{ flex-direction: column; margin: 180px 0px 150px 45px;}
@@ -829,6 +797,37 @@ img{
 
 .games-item { display: grid; grid-template-columns: repeat(3, 1fr ); gap: 20px; }
 
+
+
+
+}
+
+
+
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+
+    .videos-container{ display: grid; 
+        grid-template-columns: repeat(3, 1fr); 
+        align-items: center; 
+        margin-left: 105px; 
+        gap: 100px; 
+        margin-bottom: 30px;
+        padding: 20px 0px 20px 0px; }
+
+
+        .videos-description {
+            color: #534C64;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+            /* text-align: center; */
+            margin-top: 15px;
+            margin-left: 10px;
+        }
+
+        .videos-item {
+            margin-bottom: 60px;
+        }
 
 
 
