@@ -8,49 +8,69 @@
 
 <style>
 
+    body{
+        background: #f1f1f1;
+        font-family: serif;
+        margin: 0;
+        padding: 0;
+    }
+    .post{
+        width: 600px;
+        height: 400px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .post:hover .post-s{
+        width: 600px;
+    }
 
 
+    .post img {
+        width: 600px;
+        height: 400px;
+        display: block;
+    }
 
+    .post-s{
+        width: 0px;
+        height: 400px;
+        background: rgba(103, 58, 183, 0.71);
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        transform: 0.7s ease;
+    }
+ 
+    .post-s img {
+        width: 60px;
+        height: 40px;
+        
+    }
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 </style>
 <body>
-    <section class="games-container">
-        <div class="games-item">
-                <div class="games">
-                    <img src="./images/Rectangle 11.png" alt="">
-                    <p class="games-title">Action Games</p></div>
-                <div class="games">
-                    <img src="./images/Rectangle 12.png" alt="" >
-                    <p class="games-title">Adventure Games</p>
-                </div>
-                <div class="games">
-                    <img src="./images/Rectangle 13.png" alt="">
-                    <p class="games-title">Arcade Games</p></div>
-                <div class="games">
-                    <img src="./images/Rectangle 14.png" alt="">
-                <p class="games-title">Educational Games</p>
-                </div>
-                <div class="games">
-                    <img src="./images/Rectangle 15.png" alt="">
-                <p class="games-title">Word Games</p>
-                </div>
-                <div class="more-game">
-                    <img src="./images/Rectangle 16.png" alt="">
-                <p class="games-title">Role Palying Games</p>
-                </div>
-                <div class="more-game">
-                    <img src="./images/Rectangle 17.png" alt="">
-                <p class="games-title">Music & Audio Games</p>
-                </div>
-                <div class="more-game">
-                    <img src="./images/Rectangle 18.png" alt="">
-                <p class="games-title">Puzzle Games</p>
-                </div>
-                <div class="more-game">
-                    <img src="./images/Rectangle 19.png" alt="">
-                <p class="games-title">Strategy Games</p>
-                </div>
+
+    <div class="post">
+        <img src="./images/Rectangle 4.png" alt="">
+        <p class="videos-description">No Download. No Installs. Play <br>games Instantly on Gamer.</p>
+        <div class="post-s">
+            <h2><img src="./play-button 1.svg" alt=""></h2>
+            <h3 class="watch">watch</h3>
         </div>
-    </section>
+    </div>
+
+
+
     
 </body>
 </html>
