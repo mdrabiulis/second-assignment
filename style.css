@@ -748,8 +748,26 @@ img{
     grid-template-columns: repeat(2, 1fr);
     margin-left: 50px;
     gap: 100px;
-    
 }
+
+
+.footer-container{
+    background: #0B0223;
+
+    margin-top: 30px;
+    margin-left: 45px;
+    border-radius: 10px;
+}
+    
+.useful-links ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+
+
 
 
 
@@ -776,8 +794,8 @@ img{
 }
 
 
-
 }
+
     
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
@@ -795,6 +813,7 @@ img{
 
 .games-item { display: grid; grid-template-columns: repeat(3, 1fr ); gap: 20px; }
 
-    
+
+
 
 }
